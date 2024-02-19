@@ -1,0 +1,190 @@
+{
+  "main": {
+    "id": "27300c345538428c",
+    "type": "split",
+    "children": [
+      {
+        "id": "5866a698fe2079c9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "65e5331d1bbc535d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "crypto/symmetric.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "13ac625058c39820",
+    "type": "split",
+    "children": [
+      {
+        "id": "fae3332a8e8c2654",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "49907b9ea438ce32",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "89460e71e4966cdb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1cdb79eef2b87207",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "779ab0a487b91ded",
+    "type": "split",
+    "children": [
+      {
+        "id": "cf3d778c0f2a8916",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "92cabe7226b2351b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "crypto/symmetric.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "aac8f922df763fa3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "crypto/symmetric.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a13292c621d5f73e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "02387985380080df",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "crypto/symmetric.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "65e5331d1bbc535d",
+  "lastOpenFiles": [
+    "crypto.zip",
+    "pwn/meta",
+    "pwn",
+    "stegano/meta",
+    "forensic/meta",
+    "osint/meta",
+    "crypto/meta",
+    "web/about.md",
+    "images/hackerman.jpeg",
+    "images",
+    "web/meta",
+    "reverse/sorting.md",
+    "reverse/page-meta.md",
+    "reverse/meta",
+    "reverse/deleting-pages.md",
+    "reverse/custom-homepage.md",
+    "reverse/creating-pages.md",
+    "reverse/configuration.md",
+    "reverse/category-meta.md",
+    "reverse/authentication.md",
+    "reverse",
+    "osint/updating-raneto.md",
+    "forensic/running-as-a-service.md",
+    "forensic/google-oauth-setup.md",
+    "forensic/deploying-raneto-to-heroku.md",
+    "stegano/customizing-the-template.md",
+    "web/hackerman.jpeg",
+    "crypto/public-key.md",
+    "crypto/sample-crypto.md",
+    "crypto/symmetric.md",
+    "crypto/about.md",
+    "crypto/Simple/index.md",
+    "crypto/Simple/Цезарь.md",
+    "Без названия.md",
+    "about.md",
+    "image/ima.md",
+    "crypto/easy/requirements.md",
+    "index.md"
+  ]
+}

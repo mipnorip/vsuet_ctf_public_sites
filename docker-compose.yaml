@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  app:
+    image: 'jc21/nginx-proxy-manager:latest'
+    restart: unless-stopped
+    ports:
+      - '80:80'
+      - '81:81'
+      - '443:443'
+    volumes:
+      - ./proxy-manager:/data
+      - ./proxy-manager/letsencrypt:/etc/letsencrypt
+
+  static:
+    image: httpd
+    restart: unless-stopped
+    volumes:
+      - ./static:/usr/local/apache2/htdocs/
+
+  site:
+    image: nginx
+    restart: unless-stopped
+    volumes:
+      - ./site:/usr/share/nginx/html
+
+  wiki:
+    restart: unless-stopped
+    build:
+      context: ./wiki
