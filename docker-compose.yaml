@@ -11,6 +11,10 @@ services:
     volumes:
       - ./proxy-manager:/data
       - ./proxy-manager/letsencrypt:/etc/letsencrypt
+    depends_on:
+      - static
+      - site
+      - wiki
 
   static:
     image: httpd
@@ -28,3 +32,5 @@ services:
     restart: unless-stopped
     build:
       context: ./wiki
+    ports:
+      - 3000:3000
