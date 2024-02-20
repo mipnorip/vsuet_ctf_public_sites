@@ -129,8 +129,14 @@
     margin-top: 60px;
 }
 
+
 .aboutOrganizersImg{
-    width: 400px;
+    width: 300px;
+}
+
+.aboutOrganizersImg img{
+    width: 100%;
+    padding: 2vb;
 }
 
 .aboutOrganizersText{
@@ -190,13 +196,14 @@ footer{
 
 .footerContainer{
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-end;
     flex-wrap: wrap;
     margin-top: 60px;
 }
 
 .footerBlock{
     margin-top: 30px;
+    margin-left: 50px;
 }
 
 .footerBlockUser{
@@ -320,6 +327,13 @@ footer{
         display: flex;
         justify-content: center;
         width: 100%;
+        max-width: 200px;
+    }
+
+    
+    .aboutOrganizersImg img{
+        width: 100%;
+        padding: 2vb;
     }
 
     .aboutOrganizersText{
@@ -329,6 +343,10 @@ footer{
 
     .aboutOrganizersText p{
         font-size: 18px;
+    }
+
+    .reverse{
+        flex-wrap: wrap-reverse;
     }
 
     /* howPrepare */
@@ -344,6 +362,18 @@ footer{
 
     .howPrepareBlock p{
         font-size: 16px;
+    }
+
+    .footerContainer{
+        display: flex;
+        justify-content:center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+    .footerBlock {
+        display: flex;
+        justify-content: center;
     }
 }
 
@@ -393,7 +423,13 @@ footer{
     .aboutOrganizersImg{
         display: flex;
         justify-content: center;
+        max-width: 250px;
+    }
+
+    
+    .aboutOrganizersImg img{
         width: 100%;
+        padding: 2vb;
     }
 
     .aboutOrganizersText{
@@ -418,6 +454,10 @@ footer{
 
     .howPrepareBlock p{
         font-size: 16px;
+    }
+
+    .reverse{
+        flex-wrap: wrap-reverse;
     }
 }
 
