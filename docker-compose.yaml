@@ -38,3 +38,5 @@ services:
     build:
       context: ./bot
       dockerfile: Dockerfile
+    volumes:
+      - ./bot/data:./data
