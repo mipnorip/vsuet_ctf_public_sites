@@ -1,3 +1,4 @@
 proxy-manager/
 .venv
 .DS_STORE
+.obsidian
