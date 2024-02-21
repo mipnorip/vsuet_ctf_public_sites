@@ -34,3 +34,9 @@ services:
       context: ./wiki
     ports:
       - 3000:3000
+
+  bot:
+    restart: unless-stopped
+    build:
+      context: ./bot
+      dockerfile: Dockerfile
