@@ -39,4 +39,4 @@ services:
       context: ./bot
       dockerfile: Dockerfile
     volumes:
-      - ./bot/data:./data
+      - ./bot/data:/app/data
